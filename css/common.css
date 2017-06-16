@@ -14,6 +14,10 @@
 	font-weight: bold;
 }
 
+.text_underline {
+	text-decoration: underline;
+}
+
 .padding_10px {
 	padding: 10px;
 }
@@ -32,4 +36,13 @@
 
 .margin_bottom_10px {
 	margin-bottom: 10px;
+}
+
+.ordered_list {
+	list-style-type: decimal;
+	padding-left: 25px;
+}
+
+.ordered_list li {
+	padding-bottom: 10px;
 }
