@@ -18,6 +18,10 @@
 	text-decoration: underline;
 }
 
+.float_left {
+	float: left;
+}
+
 .padding_10px {
 	padding: 10px;
 }
@@ -28,6 +32,10 @@
 
 .padding_bottom_10px {
 	padding-bottom: 10px;
+}
+
+.padding_left_150px {
+	padding-left: 150px;
 }
 
 .margin_top_10px {

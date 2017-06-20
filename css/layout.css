@@ -126,3 +126,17 @@ footer {
     color: #32469d;
     padding: 10px 60px;
 }
+
+#program_list>li {
+    margin: 30px 0 20px;
+}
+
+.left_col {
+    /*float: left;*/
+    width: 150px;
+    display: inline-block;
+}
+
+.detail_list>li {
+    margin: 10px 0;
+}
