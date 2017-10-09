@@ -112,37 +112,49 @@ nav a:hover {
 	font-size: 20px;*/
 }
 
-.photo_list_area {
+.index_photo_list_area {
     position: relative;
 }
 
-#photo_text_area span {
+#index_photo_text_area span {
     display: inline-block;
 }
 
-#photo_text_area span:nth-child(1) {
+#index_photo_text_area span:nth-child(1) {
     padding-left: 258px;
 }
 
-#photo_text_area span:nth-child(2) {
+#index_photo_text_area span:nth-child(2) {
     padding-left: 250px;
 }
 
-.photo_list li {
+.index_photo_list li, .photos_list li {
     display: inline-block;
     width: 220px;
     margin: 30px;
 }
 
-.photo_list img {
+.index_photo_list img {
     box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
     border-radius: 210px;
 }
 
-#photo_text_area {
+#index_photo_text_area {
     position: absolute;
     top: 120px;
     /*left: 250px;*/
+}
+
+.photos_list li {
+    /*height: 300px;*/
+    min-height: 200px;
+}
+
+.photos_list li img {
+    width: 210px;
+    /*height: 276px;*/
+    border: 5px solid #FFF;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
 }
 
 footer {
@@ -163,4 +175,17 @@ footer {
 
 .detail_list>li {
     margin: 10px 0;
+}
+
+.page_number_area {
+    /*margin: auto;*/
+}
+
+.page_number_area li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #6299a1;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
 }
