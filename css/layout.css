@@ -177,10 +177,6 @@ footer {
     margin: 10px 0;
 }
 
-.page_number_area {
-    /*margin: auto;*/
-}
-
 .page_number_area li {
     display: inline-block;
     width: 40px;
@@ -188,4 +184,10 @@ footer {
     border-radius: 20px;
     background-color: #6299a1;
     box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
+    margin-right: 2px;
+}
+
+.page_number_area li a {
+    display: inline-block;
+    width: 100%;
 }
